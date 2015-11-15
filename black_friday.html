@@ -1,0 +1,83 @@
+<html>
+  <head>
+     <title>
+    Chatterbox
+    </title>
+​
+    <link rel="stylesheet" href="black_friday.css" type="text/css">
+  </head>
+
+​
+  <body>
+    <header>
+      <h5 id="icon">
+      <a href="url">
+      Chatterbox
+      </a>
+      </h5>
+​
+      <h1>
+      Woes of Black Friday!
+      </h1>
+    </header>
+    <nav>
+      <ul>
+        <li>
+        <a href="index.html">
+        Home
+        </a>
+        </li>
+        <li>
+        <a href="rules_of_conduct.html">
+        Rules of Conduct
+        </a>
+        </li>
+        <li>
+        <a href="url">
+        See Other Stories!
+        </a>
+        </li>
+        <li>
+        <a href="feedback.html">
+        Feedback
+        </a>
+        </li>
+        <li>
+        <a href="url">
+        About Us
+        </a>
+        </li>
+      </ul>
+    </nav>
+​
+    <section>
+      <article>
+        <img src="blackfriday.jpg" style="width:120%; height:50%"/>
+        <p>
+        Every year when November comes around, most Americans look forward to that special day... Yup! you guessed! Black Friday. All retailer puts out their best sales in order to drawn in the crowd. But is the deals really worth all the wait in that long line while your Thanksgiving meal is still working their way through your stomach? Tell us your stories and what you think of Black Friday!
+        </p>
+​
+        <h3>
+        Share your tales!
+        </h3>
+​
+        <form method='post'>
+        Nickname:
+          <input type='text' name='nickname' id='nickname' /><br />
+        Comment:
+          <textarea name='comment' id='comment'></textarea><br />
+          <input type='hidden' name='articleid' id='articleid' value='<? echo $_GET["id"]; ?>' />
+          <input type='submit' value='Submit' />
+          </form>
+      </article>
+    </section>
+​
+    <aside>
+    </aside>
+​
+    <footer>
+    &copy Chatterbox 2015
+    </footer>
+  </body>
+​
+</html>
